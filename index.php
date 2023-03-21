@@ -55,6 +55,27 @@ var_dump($pw);
 
         </div>
 
+        <section class="password pt-5">
+
+            <div class="container card py-3 px-5">
+
+                <div class="row">
+
+                    <h2 class="col-sm-6">La tua password:</h2>
+
+                    <h2 class="col-sm-6"><?php 
+
+                        foreach ($pw as $pw_char) {
+                            echo $pw_char;
+                        }
+                        
+                    ?></h2>
+
+                </div>
+
+            </div>
+
+        </section>
 
     </main>
     <!-- end main -->
